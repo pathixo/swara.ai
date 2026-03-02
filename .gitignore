@@ -1,0 +1,68 @@
+# ═══════════════════════════════════════════════════════════════
+# Jarvis — .gitignore
+# ═══════════════════════════════════════════════════════════════
+
+# ─── Python ─────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+*.whl
+
+# ─── Virtual Environment ────────────────────────────────────────
+.venv/
+venv/
+ENV/
+
+# ─── PyInstaller / Build ────────────────────────────────────────
+build/
+*.manifest
+*.spec
+
+# ─── IDE ────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.gemini/
+
+# ─── OS ─────────────────────────────────────────────────────────
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ─── Secrets ────────────────────────────────────────────────────
+.env
+
+# ─── ML Model Artifacts (NEVER commit model weights) ───────────
+output/
+llama.cpp/
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# ─── Audio / TTS Temp Files ─────────────────────────────────────
+*.wav
+*.mp3
+temp_tts.*
+command.wav
+
+# ─── Logs / Debug ───────────────────────────────────────────────
+logs/
+*.log
+test_output.txt
+system_prompt_debug.txt
+
+# ─── Temp / Misc ────────────────────────────────────────────────
+*.tmp
+workspace/

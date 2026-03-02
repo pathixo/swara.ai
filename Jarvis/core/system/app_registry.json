@@ -1,0 +1,465 @@
+{
+  "notepad": {
+    "display_name": "Notepad",
+    "aliases": ["notepad", "text editor"],
+    "launch_method": "exe",
+    "launch_target": "notepad",
+    "process_name": "notepad.exe",
+    "category": "system"
+  },
+  "calculator": {
+    "display_name": "Calculator",
+    "aliases": ["calc", "calculator"],
+    "launch_method": "uri",
+    "launch_target": "calculator:",
+    "process_name": "CalculatorApp.exe",
+    "category": "system"
+  },
+  "explorer": {
+    "display_name": "File Explorer",
+    "aliases": ["file explorer", "explorer", "my computer", "this pc", "files"],
+    "launch_method": "exe",
+    "launch_target": "explorer",
+    "process_name": "explorer.exe",
+    "category": "system"
+  },
+  "settings": {
+    "display_name": "Windows Settings",
+    "aliases": ["settings", "windows settings", "system settings", "preferences"],
+    "launch_method": "uri",
+    "launch_target": "ms-settings:",
+    "process_name": "SystemSettings.exe",
+    "category": "system"
+  },
+  "task_manager": {
+    "display_name": "Task Manager",
+    "aliases": ["task manager", "taskmgr", "processes"],
+    "launch_method": "exe",
+    "launch_target": "taskmgr",
+    "process_name": "Taskmgr.exe",
+    "category": "system"
+  },
+  "control_panel": {
+    "display_name": "Control Panel",
+    "aliases": ["control panel", "control"],
+    "launch_method": "exe",
+    "launch_target": "control",
+    "process_name": "control.exe",
+    "category": "system"
+  },
+  "cmd": {
+    "display_name": "Command Prompt",
+    "aliases": ["cmd", "command prompt", "command line", "terminal"],
+    "launch_method": "exe",
+    "launch_target": "cmd",
+    "process_name": "cmd.exe",
+    "category": "system"
+  },
+  "powershell": {
+    "display_name": "PowerShell",
+    "aliases": ["powershell", "ps", "windows powershell"],
+    "launch_method": "exe",
+    "launch_target": "powershell",
+    "process_name": "powershell.exe",
+    "category": "system"
+  },
+  "windows_terminal": {
+    "display_name": "Windows Terminal",
+    "aliases": ["windows terminal", "wt", "new terminal"],
+    "launch_method": "exe",
+    "launch_target": "wt",
+    "process_name": "WindowsTerminal.exe",
+    "category": "system"
+  },
+  "snipping_tool": {
+    "display_name": "Snipping Tool",
+    "aliases": ["snipping tool", "screenshot", "snip", "snip and sketch", "screen capture"],
+    "launch_method": "exe",
+    "launch_target": "SnippingTool",
+    "process_name": "SnippingTool.exe",
+    "category": "system"
+  },
+  "paint": {
+    "display_name": "Microsoft Paint",
+    "aliases": ["paint", "mspaint", "ms paint"],
+    "launch_method": "exe",
+    "launch_target": "mspaint",
+    "process_name": "mspaint.exe",
+    "category": "creative"
+  },
+  "photos": {
+    "display_name": "Photos",
+    "aliases": ["photos", "photo viewer", "windows photos"],
+    "launch_method": "uri",
+    "launch_target": "ms-photos:",
+    "process_name": "Microsoft.Photos.exe",
+    "category": "creative"
+  },
+  "camera": {
+    "display_name": "Camera",
+    "aliases": ["camera", "webcam"],
+    "launch_method": "uri",
+    "launch_target": "microsoft.windows.camera:",
+    "process_name": "WindowsCamera.exe",
+    "category": "creative"
+  },
+  "clock": {
+    "display_name": "Alarms & Clock",
+    "aliases": ["clock", "alarm", "alarms", "timer", "stopwatch"],
+    "launch_method": "uri",
+    "launch_target": "ms-clock:",
+    "process_name": "Time.exe",
+    "category": "system"
+  },
+  "maps": {
+    "display_name": "Maps",
+    "aliases": ["maps", "windows maps"],
+    "launch_method": "uri",
+    "launch_target": "bingmaps:",
+    "process_name": "Maps.exe",
+    "category": "system"
+  },
+  "weather": {
+    "display_name": "Weather",
+    "aliases": ["weather", "forecast"],
+    "launch_method": "uri",
+    "launch_target": "msnweather:",
+    "process_name": "Weather.exe",
+    "category": "system"
+  },
+
+  "chrome": {
+    "display_name": "Google Chrome",
+    "aliases": ["chrome", "google chrome", "chrome browser"],
+    "launch_method": "exe",
+    "launch_target": "chrome",
+    "process_name": "chrome.exe",
+    "category": "browser"
+  },
+  "firefox": {
+    "display_name": "Mozilla Firefox",
+    "aliases": ["firefox", "mozilla firefox"],
+    "launch_method": "exe",
+    "launch_target": "firefox",
+    "process_name": "firefox.exe",
+    "category": "browser"
+  },
+  "edge": {
+    "display_name": "Microsoft Edge",
+    "aliases": ["edge", "microsoft edge", "ms edge"],
+    "launch_method": "exe",
+    "launch_target": "msedge",
+    "process_name": "msedge.exe",
+    "category": "browser"
+  },
+  "brave": {
+    "display_name": "Brave Browser",
+    "aliases": ["brave", "brave browser"],
+    "launch_method": "exe",
+    "launch_target": "brave",
+    "process_name": "brave.exe",
+    "category": "browser"
+  },
+  "opera": {
+    "display_name": "Opera",
+    "aliases": ["opera", "opera browser"],
+    "launch_method": "exe",
+    "launch_target": "opera",
+    "process_name": "opera.exe",
+    "category": "browser"
+  },
+
+  "vscode": {
+    "display_name": "Visual Studio Code",
+    "aliases": ["vscode", "vs code", "visual studio code", "code editor", "code"],
+    "launch_method": "exe",
+    "launch_target": "code",
+    "process_name": "Code.exe",
+    "category": "dev_tool"
+  },
+  "git_bash": {
+    "display_name": "Git Bash",
+    "aliases": ["git bash", "gitbash"],
+    "launch_method": "exe",
+    "launch_target": "git-bash",
+    "process_name": "git-bash.exe",
+    "category": "dev_tool"
+  },
+  "docker_desktop": {
+    "display_name": "Docker Desktop",
+    "aliases": ["docker", "docker desktop"],
+    "launch_method": "exe",
+    "launch_target": "Docker Desktop",
+    "process_name": "Docker Desktop.exe",
+    "category": "dev_tool"
+  },
+  "postman": {
+    "display_name": "Postman",
+    "aliases": ["postman", "api tester"],
+    "launch_method": "exe",
+    "launch_target": "Postman",
+    "process_name": "Postman.exe",
+    "category": "dev_tool"
+  },
+
+  "spotify": {
+    "display_name": "Spotify",
+    "aliases": ["spotify", "spotify music", "music player"],
+    "launch_method": "uri",
+    "launch_target": "spotify:",
+    "process_name": "Spotify.exe",
+    "category": "media"
+  },
+  "vlc": {
+    "display_name": "VLC Media Player",
+    "aliases": ["vlc", "vlc player", "vlc media", "video player", "media player"],
+    "launch_method": "exe",
+    "launch_target": "vlc",
+    "process_name": "vlc.exe",
+    "category": "media"
+  },
+  "windows_media": {
+    "display_name": "Windows Media Player",
+    "aliases": ["windows media player", "wmp", "media player legacy"],
+    "launch_method": "exe",
+    "launch_target": "wmplayer",
+    "process_name": "wmplayer.exe",
+    "category": "media"
+  },
+
+  "discord": {
+    "display_name": "Discord",
+    "aliases": ["discord", "disc"],
+    "launch_method": "uri",
+    "launch_target": "discord:",
+    "process_name": "Discord.exe",
+    "category": "social"
+  },
+  "slack": {
+    "display_name": "Slack",
+    "aliases": ["slack"],
+    "launch_method": "uri",
+    "launch_target": "slack:",
+    "process_name": "slack.exe",
+    "category": "social"
+  },
+  "whatsapp": {
+    "display_name": "WhatsApp",
+    "aliases": ["whatsapp", "whatsapp web"],
+    "launch_method": "url",
+    "launch_target": "https://web.whatsapp.com",
+    "process_name": null,
+    "category": "social"
+  },
+  "telegram": {
+    "display_name": "Telegram",
+    "aliases": ["telegram", "tg"],
+    "launch_method": "uri",
+    "launch_target": "tg:",
+    "process_name": "Telegram.exe",
+    "category": "social"
+  },
+  "instagram": {
+    "display_name": "Instagram",
+    "aliases": ["instagram", "insta", "ig"],
+    "launch_method": "url",
+    "launch_target": "https://instagram.com",
+    "process_name": null,
+    "category": "social"
+  },
+  "twitter": {
+    "display_name": "X (Twitter)",
+    "aliases": ["twitter", "x", "tweet"],
+    "launch_method": "url",
+    "launch_target": "https://x.com",
+    "process_name": null,
+    "category": "social"
+  },
+  "facebook": {
+    "display_name": "Facebook",
+    "aliases": ["facebook", "fb"],
+    "launch_method": "url",
+    "launch_target": "https://facebook.com",
+    "process_name": null,
+    "category": "social"
+  },
+  "linkedin": {
+    "display_name": "LinkedIn",
+    "aliases": ["linkedin"],
+    "launch_method": "url",
+    "launch_target": "https://linkedin.com",
+    "process_name": null,
+    "category": "social"
+  },
+  "reddit": {
+    "display_name": "Reddit",
+    "aliases": ["reddit"],
+    "launch_method": "url",
+    "launch_target": "https://reddit.com",
+    "process_name": null,
+    "category": "social"
+  },
+
+  "youtube": {
+    "display_name": "YouTube",
+    "aliases": ["youtube", "yt"],
+    "launch_method": "url",
+    "launch_target": "https://youtube.com",
+    "process_name": null,
+    "category": "media"
+  },
+  "netflix": {
+    "display_name": "Netflix",
+    "aliases": ["netflix"],
+    "launch_method": "url",
+    "launch_target": "https://netflix.com",
+    "process_name": null,
+    "category": "media"
+  },
+
+  "word": {
+    "display_name": "Microsoft Word",
+    "aliases": ["word", "microsoft word", "ms word"],
+    "launch_method": "exe",
+    "launch_target": "winword",
+    "process_name": "WINWORD.EXE",
+    "category": "office"
+  },
+  "excel": {
+    "display_name": "Microsoft Excel",
+    "aliases": ["excel", "microsoft excel", "ms excel", "spreadsheet"],
+    "launch_method": "exe",
+    "launch_target": "excel",
+    "process_name": "EXCEL.EXE",
+    "category": "office"
+  },
+  "powerpoint": {
+    "display_name": "Microsoft PowerPoint",
+    "aliases": ["powerpoint", "ppt", "microsoft powerpoint", "ms powerpoint", "presentation"],
+    "launch_method": "exe",
+    "launch_target": "powerpnt",
+    "process_name": "POWERPNT.EXE",
+    "category": "office"
+  },
+  "outlook": {
+    "display_name": "Microsoft Outlook",
+    "aliases": ["outlook", "microsoft outlook", "ms outlook", "email", "mail"],
+    "launch_method": "exe",
+    "launch_target": "outlook",
+    "process_name": "OUTLOOK.EXE",
+    "category": "office"
+  },
+  "onenote": {
+    "display_name": "OneNote",
+    "aliases": ["onenote", "one note", "notes"],
+    "launch_method": "uri",
+    "launch_target": "onenote:",
+    "process_name": "ONENOTE.EXE",
+    "category": "office"
+  },
+  "teams": {
+    "display_name": "Microsoft Teams",
+    "aliases": ["teams", "microsoft teams", "ms teams"],
+    "launch_method": "uri",
+    "launch_target": "msteams:",
+    "process_name": "ms-teams.exe",
+    "category": "office"
+  },
+
+  "store": {
+    "display_name": "Microsoft Store",
+    "aliases": ["store", "microsoft store", "ms store", "app store", "windows store"],
+    "launch_method": "uri",
+    "launch_target": "ms-windows-store:",
+    "process_name": "WinStore.App.exe",
+    "category": "system"
+  },
+  "feedback_hub": {
+    "display_name": "Feedback Hub",
+    "aliases": ["feedback hub", "feedback"],
+    "launch_method": "uri",
+    "launch_target": "feedback-hub:",
+    "process_name": "FeedbackHub.exe",
+    "category": "system"
+  },
+  "xbox": {
+    "display_name": "Xbox",
+    "aliases": ["xbox", "xbox app", "gaming"],
+    "launch_method": "uri",
+    "launch_target": "xbox:",
+    "process_name": "XboxApp.exe",
+    "category": "media"
+  },
+  "steam": {
+    "display_name": "Steam",
+    "aliases": ["steam", "steam games"],
+    "launch_method": "uri",
+    "launch_target": "steam:",
+    "process_name": "steam.exe",
+    "category": "media"
+  },
+  "epic_games": {
+    "display_name": "Epic Games Launcher",
+    "aliases": ["epic games", "epic", "epic launcher"],
+    "launch_method": "exe",
+    "launch_target": "EpicGamesLauncher",
+    "process_name": "EpicGamesLauncher.exe",
+    "category": "media"
+  },
+  "zoom": {
+    "display_name": "Zoom",
+    "aliases": ["zoom", "zoom meeting", "video call"],
+    "launch_method": "uri",
+    "launch_target": "zoommtg:",
+    "process_name": "Zoom.exe",
+    "category": "social"
+  },
+  "notion": {
+    "display_name": "Notion",
+    "aliases": ["notion"],
+    "launch_method": "url",
+    "launch_target": "https://notion.so",
+    "process_name": null,
+    "category": "office"
+  },
+  "github": {
+    "display_name": "GitHub",
+    "aliases": ["github", "gh"],
+    "launch_method": "url",
+    "launch_target": "https://github.com",
+    "process_name": null,
+    "category": "dev_tool"
+  },
+  "chatgpt": {
+    "display_name": "ChatGPT",
+    "aliases": ["chatgpt", "chat gpt", "openai"],
+    "launch_method": "url",
+    "launch_target": "https://chatgpt.com",
+    "process_name": null,
+    "category": "dev_tool"
+  },
+  "copilot": {
+    "display_name": "Microsoft Copilot",
+    "aliases": ["copilot", "microsoft copilot", "bing chat"],
+    "launch_method": "url",
+    "launch_target": "https://copilot.microsoft.com",
+    "process_name": null,
+    "category": "dev_tool"
+  },
+  "gmail": {
+    "display_name": "Gmail",
+    "aliases": ["gmail", "google mail"],
+    "launch_method": "url",
+    "launch_target": "https://mail.google.com",
+    "process_name": null,
+    "category": "office"
+  },
+  "google_drive": {
+    "display_name": "Google Drive",
+    "aliases": ["google drive", "drive", "gdrive"],
+    "launch_method": "url",
+    "launch_target": "https://drive.google.com",
+    "process_name": null,
+    "category": "office"
+  }
+}
