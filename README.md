@@ -1,3 +1,5 @@
+ > ⚠️ **EXPERIMENTAL & TEST VERSION** — This is an experimental and test version of the final application. Features may be incomplete, unstable, or subject to change. Use at your own risk.
+
 <p align="center">
   <h1 align="center">🧠 Jarvis</h1>
   <p align="center">
